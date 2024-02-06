@@ -1,0 +1,60 @@
+*{
+    font-family: Arial, Helvetica, sans-serif ;
+    
+}
+body{
+    background-image: url('keith-misner-h0Vxgz5tyXA-unsplash.jpg');
+}
+#main-heading{
+    text-align: center; /*with the help of this heading will align center*/
+    color: aquamarine;
+}
+.input-area{
+    text-align: center;
+}
+/*#displayContainer{
+    display: grid;
+    grid-template-columns: 150px 150px 100px;
+    justify-content: center;
+    column-gap: 10px;
+    
+
+}*/
+.inputContainer{
+    display: grid;
+    grid-template-columns: 150px 150px 100px;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+#todo-input,#todo-date{
+    font-size: 15px;
+    padding: 10px 15px;
+
+}
+.add-button{
+    background-color: green;
+    border-radius: 6px;
+    border-radius: none;
+    padding: 10px 0px;
+
+    cursor: pointer;
+}
+.delete-button{
+    background-color: rgb(124, 12, 12);
+    color: white;
+    border-radius: 6px;
+    border-radius: none;
+    padding: 10px 0px;
+    cursor: pointer;
+
+}
+
+.input-data{
+    color: white;
+    font-size: large;
+}
+
+
